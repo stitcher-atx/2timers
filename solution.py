@@ -25,7 +25,7 @@ def solver():
        T2.x = T2.x - T2.y
        T1.y = T1.x
        T1.x = 0
-   else T1.x < T1.y:
+   elif T1.x < T1.y:
        T1.x = T1.y - T2.y
        T1.y = T1.y - T1.x
        T2.x = T2.x + T2.y
